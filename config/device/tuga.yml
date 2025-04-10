@@ -1,0 +1,9 @@
+device:
+  name: tuga
+
+platform:
+  product_makefile: device/google/tuga/aosp_tuga.mk
+
+includes:
+  - common/gen9pixel.yml
+  - common/gs-wireless-charger.yml
