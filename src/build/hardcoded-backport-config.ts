@@ -21,6 +21,60 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
   "tegu": {
     sourceBuildId: ANDROID_16_QPR1_DEFAULT_BUILD_ID,
     replaceFiles: [
+      // "vendor/lib64/hardware.google.ril_ext-V1-ndk.so",
+      // "vendor/lib64/libgooglerilaudio.so",
+      // "vendor/lib64/libgooglerilmemmonitor.so",
+      // "vendor/lib64/libgril_oem-google.so",
+      // "vendor/lib64/libreference-ril.so",
+      // "vendor/lib64/libril-aidl.so",
+      // "vendor/lib64/libril.so",
+      // "vendor/lib64/libril_gfeature.so",
+      // "vendor/lib64/libril_sitril.so",
+      // "vendor/lib64/librilutils.so",
+      // "vendor/lib64/libsitril-audio.so",
+      // "vendor/lib64/libsitril-client.so",
+      // "vendor/lib64/libsitril-gps.so",
+      // "vendor/lib64/libsitril-ims.so",
+      // "vendor/lib64/libsitril.so",
+      // "vendor/bin/hw/rild_exynos",
+      // "system_ext/framework/google-ril.jar",
+      // "system_ext/framework/oemrilhook.jar",
+      // "system_ext/app/OemRilHookService/OemRilHookService.apk",
+      // "system_ext/priv-app/OemRilService/OemRilService.apk",
+      // "system_ext/priv-app/RilConfigService/RilConfigService.apk",
+      // "system_ext/priv-app/grilservice/grilservice.apk",
+      // "system_ext/priv-app/ril-extension/ril-extension.apk",
+      // TPU firmware
+      "vendor/firmware/google/edgetpu-rio.fw",
+      // Bluetooth firmware
+      "vendor/firmware/brcm/BCM.hcd",
+      "vendor/firmware/brcm/BTFW_B.hcd",
+      // WiFi firmware
+      "vendor/firmware/fw_bcmdhd.bin",
+      "vendor/firmware/fw_bcmdhd.bin_4383_a3",
+      "vendor/firmware/fw_bcmdhd.map",
+      "vendor/firmware/fw_bcmdhd.map_4383_a3",
+      "vendor/firmware/bcmdhd.cal_4383_a3",
+      // AOC firmware
+      "vendor/firmware/aoc.bin",
+      // GXP components
+      // "vendor/bin/hw/android.hardware.gxp.logging@service-gxp-logging",
+      "vendor/firmware/google/gxp-callisto.fw",
+      "vendor/firmware/gxp_callisto_fw_core0",
+      "vendor/firmware/gxp_callisto_fw_core1",
+      "vendor/firmware/gxp_callisto_fw_core2",
+      // "vendor/lib64/fake_gxp_telemetry_reader.so",
+      // "vendor/lib64/gxp_metrics_logger.so",
+      // "vendor/lib64/gxp_telemetry_reader.so",
+      // "vendor/lib64/libgxp.so",
+      // "vendor_dlkm/lib/modules/gxp.ko",
+      // Mali
+      "vendor/firmware/mali_csffw-r54p0.bin",
+      // qm35
+      "vendor/firmware/qm35_fw_pkg.bin",
+      "vendor/firmware/qm35_fw_pkg_prod.bin",
+      // st54l
+      "vendor/firmware/st54l_conf.bin",
     ],
     newFiles: [
     ],
