@@ -75,8 +75,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "tegu-16.3-13642544",
@@ -130,8 +139,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "ripcurrentpro-16.3-13642544",
@@ -184,8 +202,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "ripcurrentpro-16.3-13642544",
@@ -238,8 +265,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "ripcurrentpro-16.3-13642544",
@@ -290,8 +326,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "ripcurrentpro-16.3-13642544",
@@ -343,8 +388,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "akita-16.3-13642541",
@@ -394,8 +448,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "ripcurrent-16.3-13642541",
@@ -443,8 +506,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "ripcurrent-16.3-13642541",
@@ -477,8 +549,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "felix-16.3-13642542",
@@ -508,8 +589,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "tangorpro-16.3-13642542",
@@ -555,8 +645,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "lynx-16.3-13642542",
@@ -603,8 +702,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "cloudripper-16.3-13642542",
@@ -634,8 +742,17 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "cloudripper-16.3-13642542",
@@ -675,9 +792,18 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "bluejay-16.3-13642543",
@@ -717,9 +843,18 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "slider-16.3-13642543",
@@ -759,9 +894,18 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/egl/libGLES_mali.so",
       "vendor/lib64/hw/vulkan.mali.so",
+
+      "vendor/lib64/libedgetpu_client.google.so",
+      "vendor/lib64/libedgetpu_tachyon.google.so",
+      "vendor/lib64/libedgetpu_tflite_compiler.so",
+      "vendor/lib64/libedgetpu_util.so",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
+      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "slider-16.3-13642543",
