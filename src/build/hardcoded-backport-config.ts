@@ -72,6 +72,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -124,6 +127,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -175,6 +181,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -226,6 +235,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -275,6 +287,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -325,6 +340,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -373,6 +391,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -419,6 +440,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -450,6 +474,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/libgril_oem-google.so",
       "system_ext/framework/google-ril.jar",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -478,6 +505,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
 
       "vendor/lib64/libgril_oem-google.so",
       "system_ext/framework/google-ril.jar",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -522,6 +552,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -567,6 +600,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -595,6 +631,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/firmware/gxp_fw_core3",
       "vendor/firmware/mali_csffw-r54p0.bin",
       "vendor/bin/hw/android.hardware.neuralnetworks@service-darwinn-aidl",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
     ],
@@ -633,6 +672,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
@@ -672,6 +714,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
@@ -711,6 +756,9 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
+
+      "vendor/lib64/egl/libGLES_mali.so",
+      "vendor/lib64/hw/vulkan.mali.so",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
