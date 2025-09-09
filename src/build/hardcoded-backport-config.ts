@@ -55,6 +55,7 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       // NeuralNetwork
       "vendor/bin/hw/android.hardware.neuralnetworks@service-darwinn-aidl",
 
+      // RIL
       "system_ext/priv-app/ril-extension/ril-extension.apk",
       "vendor/bin/hw/rild_exynos",
       "vendor/lib64/libgooglerilmemmonitor.so", // used by rild_exynos
@@ -73,16 +74,21 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -137,16 +143,20 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -200,16 +210,20 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -263,16 +277,20 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -324,16 +342,20 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -386,16 +408,20 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -446,16 +472,20 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -503,17 +533,21 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/framework/oemrilhook.jar",
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
-
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/lib64/libedgetpu_litert.so",
@@ -544,22 +578,40 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/firmware/mali_csffw-r54p0.bin",
       "vendor/bin/hw/android.hardware.neuralnetworks@service-darwinn-aidl",
 
+      "system_ext/priv-app/ril-extension/ril-extension.apk",
+      "vendor/bin/hw/rild_exynos",
+      "vendor/lib64/libgooglerilmemmonitor.so", // used by rild_exynos
       "vendor/lib64/libgril_oem-google.so",
+      "vendor/lib64/libril-aidl.so", // used by rild_exynos
+      "vendor/lib64/libril_gfeature.so", // used by rild_exynos
+      "vendor/lib64/libril_sitril.so", // used by rild_exynos
+      "vendor/lib64/vendor.google.whitechapel.audio.extension-V5-ndk.so",
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so", // used by rild_exynos
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so", // used by rild_exynos
+      "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so", // used by rild_exynos
+      "system_ext/priv-app/OemRilService/OemRilService.apk",
+      "system_ext/app/OemRilHookService/OemRilHookService.apk",
       "system_ext/framework/google-ril.jar",
+      "system_ext/framework/oemrilhook.jar",
+      "system_ext/priv-app/ShannonIms/ShannonIms.apk",
+      "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "felix-16.3-13642542",
@@ -587,19 +639,22 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/libgril_oem-google.so",
       "system_ext/framework/google-ril.jar",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "tangorpro-16.3-13642542",
@@ -643,19 +698,22 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "lynx-16.3-13642542",
@@ -700,19 +758,22 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "cloudripper-16.3-13642542",
@@ -740,19 +801,22 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/firmware/mali_csffw-r54p0.bin",
       "vendor/bin/hw/android.hardware.neuralnetworks@service-darwinn-aidl",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "cloudripper-16.3-13642542",
@@ -790,20 +854,23 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "bluejay-16.3-13642543",
@@ -841,20 +908,23 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "slider-16.3-13642543",
@@ -892,20 +962,23 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "system_ext/priv-app/ShannonIms/ShannonIms.apk",
       "system_ext/priv-app/ShannonRcs/ShannonRcs.apk",
 
-      "vendor/lib64/egl/libGLES_mali.so",
-      "vendor/lib64/hw/vulkan.mali.so",
-
+      // tpu
+      "system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service",
+      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
+      "vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging",
+      "vendor/bin/hw/com.google.edgetpu.tachyon-service",
+      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
+      "vendor/lib64/com.google.edgetpu.tachyon-ndk.so",
+      "vendor/lib64/com.google.edgetpu_app_service-V4-ndk.so",
+      "vendor/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
       "vendor/lib64/libedgetpu_client.google.so",
       "vendor/lib64/libedgetpu_tachyon.google.so",
       "vendor/lib64/libedgetpu_tflite_compiler.so",
       "vendor/lib64/libedgetpu_util.so",
-      "system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so",
-      "system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so",
-      "vendor/bin/hw/vendor.google.edgetpu_vendor_service@1.0-service",
     ],
     newFiles: [
       "vendor/firmware/brcm/BTFW_D.hcd",
-      "vendor/lib64/libedgetpu_litert.so",
     ],
     firmware: {
       "version-bootloader": "slider-16.3-13642543",
