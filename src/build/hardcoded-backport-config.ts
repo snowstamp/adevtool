@@ -896,6 +896,10 @@ export const deviceBackportConfig: Record<string, BackportConfig> = {
       "vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so",
 
       "vendor/lib64/vendor.google.whitechapel.audio.extension-V5-ndk.so",
+      "vendor/lib64/vendor.google.whitechapel.audio.extension-V6-ndk.so", // readelf -d vendor/lib64/libgooglerilaudio.so
+      "vendor/lib64/vendor.google.whitechapel.audio.audioext@4.0.so",
+      "vendor/lib64/vendor.google.bluetooth_ext-V1-ndk.so", // readelf -d vendor/lib64/libgril_oem-google.so
+      "vendor/lib64/hardware.google.bluetooth.bt_channel_avoidance@1.0.so",
       "vendor/lib64/com.google.input-V2-ndk.so",
 
       "vendor/lib64/libedgetpu_client.google.so",
