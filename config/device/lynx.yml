@@ -1,5 +1,7 @@
 device:
   name: lynx
+  backport_build_id: BP3A.251105.015 # workaround Google not publishing lynx update
+  backport_base_firmware: false
 
 includes:
   - common/gen7pixel.yml
