@@ -22,7 +22,7 @@ device:
   has_cellular: true
   build_id: BP3A.251105.015
   backport_build_id: BP4A.251205.006
-  backport_base_firmware: false
+  backport_base_firmware: true
 
 filters:
   partitions:
