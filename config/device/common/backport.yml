@@ -39,3 +39,5 @@ backport_files:
     - firmware/qm35_fw_pkg.bin
     - firmware/qm35_fw_pkg_prod.bin
     - firmware/st54l_conf.bin
+    - firmware/rgx.fw.signed.71.2.2448.1212
+    - firmware/rgx.sh.71.2.2448.1212
