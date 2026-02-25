@@ -22,6 +22,7 @@ device:
   has_cellular: true
   build_id: BP4A.260205.001
   backport_build_id: CP11.251209.009.A1
+  is_beta_build_id: true
   backport_base_firmware: true
 
 filters:
