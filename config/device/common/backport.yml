@@ -12,6 +12,7 @@ backport_files:
     - firmware/amss20.bin
     - firmware/aoc.bin
     - firmware/bcmdhd.cal_4383_a3
+    - firmware/CPS4041_A0_02.bin
     - firmware/cs40l20.bin
     - firmware/Data.msc
     - firmware/fw_bcmdhd.bin
@@ -32,6 +33,9 @@ backport_files:
     - firmware/gxp_fw_core1
     - firmware/gxp_fw_core2
     - firmware/gxp_fw_core3
+    - firmware/gxp_ganymede_fw_core0
+    - firmware/gxp_ganymede_fw_core1
+    - firmware/gxp_ganymede_fw_core2
     - firmware/kepler.bin
     - firmware/mali_csffw-r54p0.bin
     - firmware/ntn_modem/modem.bin
@@ -41,3 +45,5 @@ backport_files:
     - firmware/st54l_conf.bin
     - firmware/rgx.fw.signed.71.2.2448.1212
     - firmware/rgx.sh.71.2.2448.1212
+    - firmware/rdbl.img
+    - firmware/seurat.bin
