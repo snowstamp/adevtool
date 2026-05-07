@@ -490,6 +490,15 @@ export async function generateBuildFiles(
       if (config.device.backport_build_id !== undefined) {
         if (resolvedName === 'libc++' || resolvedName === 'libaconfig_storage_read_api_cc') {
           copyFiles.push(blobToFileCopy(entry, dirs.proprietary))
+          if (config.device.name === 'stallion' && resolvedName === 'libc++' && entry.partPath.partition === Partition.Vendor) {
+            // Also install to system partition: the BD6A base system libc++ lacks
+            // __hash_memory; the CP1A backport binary requires it.
+            // BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES (set in BoardConfig.mk)
+            // allows this PRODUCT_COPY_FILES entry to override the AOSP-built one.
+            copyFiles.push(
+              `${dirs.proprietary}/${entry.partPath.asPseudoPath()}:$(PRODUCT_OUT)/${entry.partPath.relPath}`,
+            )
+          }
           continue
         }
         if (config.device.name === 'stallion') {

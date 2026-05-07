@@ -4600,6 +4600,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/stallion/proprietary/vendor/lib64/android.hardware.usb-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb-V4-ndk.so \
     vendor/google_devices/stallion/proprietary/vendor/lib64/libaconfig_storage_read_api_cc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaconfig_storage_read_api_cc.so \
     vendor/google_devices/stallion/proprietary/vendor/lib64/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so \
+    vendor/google_devices/stallion/proprietary/vendor/lib64/libc++.so:$(PRODUCT_OUT)/lib64/libc++.so \
     vendor/google_devices/stallion/proprietary/vendor/lib64/libjsoncpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjsoncpp.so \
     vendor/google_devices/stallion/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/google_devices/stallion/proprietary/vendor/etc/audio/bluenote/exported.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/bluenote/exported.xml \
