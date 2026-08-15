@@ -1,4 +1,4 @@
-import { Command, Flags } from '@oclif/core'
+import { Command, Errors, Flags } from '@oclif/core'
 import chalk from 'chalk'
 import { CopyOptions, promises as fs } from 'fs'
 import path from 'path'
@@ -54,6 +54,7 @@ import { deleteUnpackedDeviceImages, DeviceImages, prepareDeviceImages } from '.
 import { BuildIndex, ImageType, loadBuildIndex } from '../images/build-index'
 import { APK_PARSER_CONFIG_DIR_NAME, processApks } from '../processor/apk-processor'
 import { processSystemServerClassPaths } from '../processor/classpath'
+import { checkBackportedElfs } from '../processor/elf'
 import { processSepolicy } from '../processor/sepolicy'
 import { processSysconfig } from '../processor/sysconfig'
 import { processVintf } from '../processor/vintf'
@@ -82,6 +83,7 @@ async function doDevice(
   kernelPathResolver: PathResolver,
   customSrc: string,
   verbose: boolean,
+  skipElfChecks: boolean,
 ) {
   let kernelCopy = copyKernel(kernelPathResolver, dirs)
 
@@ -125,6 +127,16 @@ async function doDevice(
 
   // modifies entries array, needs await
   let systemServerCpJars = await processSystemServerClassPaths(entries, pathResolver, customState)
+
+  if (pathResolver.overlay !== undefined && !skipElfChecks) {
+    if (verbose) log('Checking backported ELF files')
+    let elfIssues = await checkBackportedElfs(entries, pathResolver)
+    if (elfIssues !== null) {
+      // oclif reformats multi-line error messages, so log before exiting
+      log(elfIssues)
+      Errors.exit(1)
+    }
+  }
 
   if (verbose) log('Copying blobs')
   let copyBlobsPromise = copyBlobs(
@@ -207,6 +219,8 @@ export default class GenerateFull extends Command {
       default: [],
     }),
 
+    skipElfChecks: Flags.boolean({}),
+
     ...DEVICE_CONFIGS_FLAG_WITH_BUILD_ID,
   }
 
@@ -270,7 +284,7 @@ export default class GenerateFull extends Command {
         // Prepare output directories
         let vendorDirs = await createVendorDirs(config.device.vendor, config.device.name)
 
-        let deviceInfo = await doDevice(vendorDirs, config, pathResolver, kernelPathResolver, flags.customSrc, flags.verbose)
+        let deviceInfo = await doDevice(vendorDirs, config, pathResolver, kernelPathResolver, flags.customSrc, flags.verbose, flags.skipElfChecks)
 
         if (!flags.doNotReplaceCarrierSettings) {
           if (flags.updateSpec && config.device.has_cellular && !flags.doNotDownloadCarrierSettings) {
