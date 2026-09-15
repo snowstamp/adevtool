@@ -1,5 +1,6 @@
 includes:
   - apk.yml
+  - backport.yml
   - file-exclusion.yml
   - file-inclusion.yml
   - kernel-cmdline.yml
@@ -15,11 +16,6 @@ includes:
   - sysprop-inclusion.yml
   - vintf-inclusion.yml
 
-backport_dirs:
-  vendor:
-    - firmware/carrierconfig
-    - firmware/uecapconfig
-
 device:
   vendor: google_devices
   has_cellular: true
@@ -28,6 +24,8 @@ device:
   build_id: CP2A.260805.005
   backport_build_id: CP3A.260905.009
   backport_radio_firmware: true
+  backport_bootloader_firmware: true
+  backport_kernel: true
   gservices_flags_inclusions:
     prefix:
       - euicc.
@@ -44,3 +42,6 @@ filters:
     match:
       - vbmeta_system
       - vbmeta_vendor
+
+extra_packages:
+  - android.frameworks.stats-V3-ndk.vendor

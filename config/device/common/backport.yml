@@ -15,6 +15,8 @@ backport_files:
     - framework/oemrilhook.jar
     - lib64/com.google.edgetpu_app_service-V3-ndk.so
     - lib64/com.google.edgetpu_vendor_service-V2-ndk.so
+    - lib64/libmediaadaptor.so
+    - lib64/libpixelimsmedia.so
     - lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so
     - lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so
     - priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
@@ -22,6 +24,7 @@ backport_files:
     - priv-app/EuiccSupportPixel/EuiccSupportPixel.apk
     - priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk
     - priv-app/OemRilService/OemRilService.apk
+    - priv-app/PixelImsMediaService/PixelImsMediaService.apk
     - priv-app/ril-extension/ril-extension.apk
     - priv-app/ShannonIms/ShannonIms.apk
     - priv-app/ShannonRcs/ShannonRcs.apk
@@ -30,34 +33,68 @@ backport_files:
     - apex/com.google.pixel.euicc.update.apex
     - bin/hw/android.hardware.neuralnetworks@service-darwinn-aidl
     - bin/hw/android.hardware.thermal-service.pixel
+    - bin/hw/google.hardware.media.c2@1.0-service
+    - bin/hw/google.hardware.media.c2@2.0-service
+    - bin/hw/google.hardware.media.c2@3.0-service
     - bin/hw/rild_exynos
     - bin/hw/vendor.google.edgetpu_vendor_service@1.0-service
     - bin/hw/vendor.google.radioext@1.0-service
-    - bin/pvrhwperfd
     - bin/shared_modem_platform
     - etc/powervr.ini
     - lib64/aconfig_gpu_flags_c_lib.so
+    - lib64/com.google.edgetpu_app_service-V10-ndk.so
     - lib64/com.google.input-V2-ndk.so
     - lib64/com.google.pixel.modem.logmasklibrary-V1-ndk.so
     - lib64/egl/libEGL_powervr.so
     - lib64/egl/libGLES_mali.so
     - lib64/egl/libGLESv1_CM_powervr.so
     - lib64/egl/libGLESv2_powervr.so
+    - lib64/hw/vulkan.mali.so
     - lib64/hw/vulkan.powervr.so
     - lib64/libaconfig_storage_read_api_cc.so
-    - lib64/libc++.so
+    - lib64/libbo_av1.so
+    - lib64/libbw_av1dec.so
+    - lib64/libbw_av1enc.so
+    - lib64/libc2filterplugin.so
     - lib64/libcustomer_gralloc_ddk_api.so
     - lib64/libdarwinn_hal.so
     - lib64/libedgetpu_client.google.so
     - lib64/libedgetpu_tachyon.google.so
     - lib64/libedgetpu_tflite_compiler.so
     - lib64/libedgetpu_util.so
+    - lib64/libgc2_av1_dec.so
+    - lib64/libgc2_av1_enc.so
+    - lib64/libgc2_avc_dec.so
+    - lib64/libgc2_avc_enc.so
+    - lib64/libgc2_base.so
+    - lib64/libgc2_bw_av1_dec.so
+    - lib64/libgc2_bw_av1_enc.so
+    - lib64/libgc2_bw_base.so
+    - lib64/libgc2_bw_cwl.so
+    - lib64/libgc2_bw_log.so
+    - lib64/libgc2_bw_store.so
+    - lib64/libgc2_bw_utils.so
+    - lib64/libgc2_cwl.so
+    - lib64/libgc2_dec.so
+    - lib64/libgc2_enc.so
+    - lib64/libgc2_filter_common.so
+    - lib64/libgc2_hal_flags.so
+    - lib64/libgc2_hevc_dec.so
+    - lib64/libgc2_hevc_enc.so
+    - lib64/libgc2_log.so
+    - lib64/libgc2_store.so
+    - lib64/libgc2_utils.so
+    - lib64/libgc2_vdi_vpu.so
+    - lib64/libgc2_vp9_dec.so
     - lib64/libgooglerilmemmonitor.so
+    - lib64/libgpudataproducer.so
     - lib64/libgril_oem-google.so
     - lib64/libIMGegl.so
     - lib64/libmodem_svc_proto_legacy_soong.so
-    - lib64/libprotobuf-cpp-full-6.33.1.so
-    - lib64/libprotobuf-cpp-lite-6.33.1.so
+    - lib64/libOpenCL-pixel.so
+    - lib64/libOpenCL.so
+    - lib64/libprotobuf-cpp-full-6.33.5-absl20260526.so
+    - lib64/libprotobuf-cpp-lite-6.33.5-absl20260526.so
     - lib64/libPVROCL.so
     - lib64/libPVRScopeServices.so
     - lib64/libril-aidl.so
@@ -69,6 +106,7 @@ backport_files:
     - lib64/libsitril-client.so
     - lib64/libsitril-gps.so
     - lib64/libsitril-ims.so
+    - lib64/libsitril.so
     - lib64/libsrv_um.so
     - lib64/libufwriter.so
     - lib64/libusc.so
