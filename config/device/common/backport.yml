@@ -11,9 +11,11 @@ backport_files:
     - priv-app/EuiccGoogle/EuiccGoogle.apk
   system_ext:
     - app/OemRilHookService/OemRilHookService.apk
+    - bin/hw/vendor.google.edgetpu_app_service@1.0-service
     - framework/google-ril.jar
     - framework/oemrilhook.jar
     - lib64/com.google.edgetpu_app_service-V3-ndk.so
+    - lib64/com.google.edgetpu_app_service-V10-ndk.so
     - lib64/com.google.edgetpu_vendor_service-V2-ndk.so
     - lib64/libmediaadaptor.so
     - lib64/libpixelimsmedia.so
@@ -25,14 +27,22 @@ backport_files:
     - priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk
     - priv-app/OemRilService/OemRilService.apk
     - priv-app/PixelImsMediaService/PixelImsMediaService.apk
+    - priv-app/PixelQualifiedNetworksService/PixelQualifiedNetworksService.apk
     - priv-app/ril-extension/ril-extension.apk
     - priv-app/ShannonIms/ShannonIms.apk
     - priv-app/ShannonRcs/ShannonRcs.apk
   vendor:
     - apex/com.google.pixel.camera.hal.apex
     - apex/com.google.pixel.euicc.update.apex
+    - bin/hw/android.hardware.biometrics.fingerprint-service.fpc42
+    - bin/hw/android.hardware.biometrics.fingerprint-service.fpc42_fw49
+    - bin/hw/android.hardware.bluetooth-service.bcmbtlinux
     - bin/hw/android.hardware.neuralnetworks@service-darwinn-aidl
+    - bin/hw/android.hardware.oemlock-service.citadel
+    - bin/hw/android.hardware.security.keymint-service.citadel
     - bin/hw/android.hardware.thermal-service.pixel
+    - bin/hw/citadeld
+    - bin/hw/com.google.edgetpu.tachyon-service
     - bin/hw/google.hardware.media.c2@1.0-service
     - bin/hw/google.hardware.media.c2@2.0-service
     - bin/hw/google.hardware.media.c2@3.0-service
@@ -40,8 +50,15 @@ backport_files:
     - bin/hw/vendor.google.edgetpu_vendor_service@1.0-service
     - bin/hw/vendor.google.radioext@1.0-service
     - bin/shared_modem_platform
+    - bin/wfc-pkt-router
     - etc/powervr.ini
+    - lib/egl/libGLES_mali.so
     - lib64/aconfig_gpu_flags_c_lib.so
+    - lib64/android.hardware.oemlock-impl.nos.so
+    - lib64/android.hardware.security.keymint-impl.nos.so
+    - lib64/android.hardware.weaver-bridge.nos.so
+    - lib64/android.hardware.weaver-impl.nos.so
+    - lib64/com.google.edgetpu.tachyon-ndk.so
     - lib64/com.google.edgetpu_app_service-V10-ndk.so
     - lib64/com.google.input-V2-ndk.so
     - lib64/com.google.pixel.modem.logmasklibrary-V1-ndk.so
@@ -49,9 +66,12 @@ backport_files:
     - lib64/egl/libGLES_mali.so
     - lib64/egl/libGLESv1_CM_powervr.so
     - lib64/egl/libGLESv2_powervr.so
+    - lib64/fake_libtachyon_core.so
+    - lib64/fpc42_suez.so
+    - lib64/fpc_util.so
+    - lib64/hw/fingerprint.fpc.so
     - lib64/hw/vulkan.mali.so
     - lib64/hw/vulkan.powervr.so
-    - lib64/libaconfig_storage_read_api_cc.so
     - lib64/libbo_av1.so
     - lib64/libbw_av1dec.so
     - lib64/libbw_av1enc.so
@@ -59,6 +79,7 @@ backport_files:
     - lib64/libcustomer_gralloc_ddk_api.so
     - lib64/libdarwinn_hal.so
     - lib64/libedgetpu_client.google.so
+    - lib64/libedgetpu_litert.so
     - lib64/libedgetpu_tachyon.google.so
     - lib64/libedgetpu_tflite_compiler.so
     - lib64/libedgetpu_util.so
@@ -86,11 +107,20 @@ backport_files:
     - lib64/libgc2_utils.so
     - lib64/libgc2_vdi_vpu.so
     - lib64/libgc2_vp9_dec.so
+    - lib64/libgf_hal.so
     - lib64/libgooglerilmemmonitor.so
     - lib64/libgpudataproducer.so
     - lib64/libgril_oem-google.so
     - lib64/libIMGegl.so
     - lib64/libmodem_svc_proto_legacy_soong.so
+    - lib64/libnos.so
+    - lib64/libnos_citadeld_proxy.so
+    - lib64/libnos_client_citadel.so
+    - lib64/libnos_datagram.so
+    - lib64/libnos_datagram_citadel.so
+    - lib64/libnos_feature.so
+    - lib64/libnos_transport.so
+    - lib64/libnosprotos.so
     - lib64/libOpenCL-pixel.so
     - lib64/libOpenCL.so
     - lib64/libprotobuf-cpp-full-6.33.5-absl20260526.so
@@ -108,11 +138,16 @@ backport_files:
     - lib64/libsitril-ims.so
     - lib64/libsitril.so
     - lib64/libsrv_um.so
+    - lib64/libtachyon_core.so
+    - lib64/libtachyon_dsp_core.so
     - lib64/libufwriter.so
     - lib64/libusc.so
     - lib64/modem_android_property_manager_impl.so
     - lib64/modem_clock_manager_impl.so
     - lib64/modem_log_dumper.so
+    - lib64/nos_app_avb.so
+    - lib64/nos_app_keymaster.so
+    - lib64/nos_app_weaver.so
     - lib64/vendor.google.bluetooth_ext-V1-ndk.so
     - lib64/vendor.google.whitechapel.audio.audioext@4.0.so
     - lib64/vendor.google.whitechapel.audio.extension-V5-ndk.so

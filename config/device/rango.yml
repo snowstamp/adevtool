@@ -9,6 +9,10 @@ includes:
 
 
 
+backport_files:
+  vendor:
+    - bin/hw/android.hardware.biometrics.fingerprint-service.goodix
+
 filters:
   file_inclusions:
     match:
